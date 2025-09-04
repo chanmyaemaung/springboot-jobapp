@@ -1,5 +1,9 @@
 spring:
   application:
     name: JobApp
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
 server:
   port: 8000
